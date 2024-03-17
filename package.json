@@ -1,0 +1,22 @@
+{
+  "name": "netlify-qwik-clerk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "qwik build",
+    "build.client": "vite build",
+    "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "dev": "vite --mode ssr",
+    "preview": "qwik build preview && vite preview --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@builder.io/qwik": "^1.5.1",
+    "@builder.io/qwik-city": "^1.5.1",
+    "vite": "^5.1.6"
+  }
+}
