@@ -7,9 +7,12 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "build.server": "vite build -c adapters/netlify-edge/vite.config.ts",
+    "deploy": "netlify deploy --build",
     "dev": "vite --mode ssr",
     "preview": "qwik build preview && vite preview --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qwik": "qwik"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +21,9 @@
     "@builder.io/qwik": "^1.5.1",
     "@builder.io/qwik-city": "^1.5.1",
     "vite": "^5.1.6"
+  },
+  "devDependencies": {
+    "@netlify/edge-functions": "^2.0.0",
+    "netlify-cli": "^15.0.0"
   }
 }
