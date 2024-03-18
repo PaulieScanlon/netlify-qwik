@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Netlify Qwik",
+  "short_name": "Welcome to Qwik on Netlify",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A Qwik app with Netlify Edge Functions for SSR"
+}
