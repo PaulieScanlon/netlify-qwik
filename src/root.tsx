@@ -10,7 +10,7 @@ export default component$(() => {
         <ServiceWorkerRegister />
       </head>
       <body>
-        <main style={{ border: '1px solid red' }}>
+        <main>
           <RouterOutlet />
         </main>
       </body>
